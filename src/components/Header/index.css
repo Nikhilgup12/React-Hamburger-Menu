@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 11110px;
+  background-color: #ffffff;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+  padding: 15px;
+}
+.nav-logo {
+  width: 100%;
+  max-width: 50px;
+  padding-left: 20px;
+}
+.nav-theme-btn {
+  background-color: transparent;
+  border-width: 0px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+.hamburger-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdcdc;
+  width: 100%;
+  padding: 40px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.cross-icon {
+  align-self: flex-end;
+}
+.home-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.about-icon-container {
+  display: flex;
+  align-items: center;
+}
+.home {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.about {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.home-link {
+  color: #616e7c;
+  font-weight: bold;
+}
+.about-link {
+  color: #616e7c;
+  font-weight: bold;
+}

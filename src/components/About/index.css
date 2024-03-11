@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.about-image-desktop{
+  width: 100%;
+  max-width: 700px;
+}
+.about-image-mobile{
+  width: 100%;
+  max-width: 700px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .about-image-desktop{
+    display: none; 
+  }
+  .about-image-mobile{
+    display: block;
+  }
+
+}
